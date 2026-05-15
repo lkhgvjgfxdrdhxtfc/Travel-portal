@@ -9,6 +9,7 @@ html {
   scroll-behavior: smooth; 
 }
 
+
 @font-face {
  font-family: RedHatText;
  src: url('assets/font/RedHatText-Medium.ttf');

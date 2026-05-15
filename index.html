@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+   <head>
+      <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title>Travel Portal</title>
+		 <link rel="shortcut icon" href="./assets/image/start-screen-puppy.png" type="image/x-icon">
+      <link rel="stylesheet" href="style.css">
+
+   </head>
+
+   <body class="body">
+    <header class="header">
+	  
+	  <div class="container hd">
+	 	<div class="logo">
+		<img src="./assets/SVG/logo2.svg" alt="Travel logo" width="31" height="31">
+		<p class="logotext">Travel Portal</p>
+		</div>
+		
+		<div class="logo2">
+		<img src="./assets/SVG/logo2.svg" alt="Travel logo" width="29" height="30">
+		<div class="menu-btn">
+		<span class="one"></span>
+		<span class="two"></span>
+		<span class="three"></span>
+		</div>
+		</div>
+		
+	<nav class="nav">
+           <ul class="nav-list">
+             <li class="nav-item"><a href="#preview" class="nav-link">How It Works</a></li>
+             <li class="nav-item"><a href="#steps" class="nav-link">Plan Your Trip</a></li>
+             <li class="nav-item"><a href="#destinations" class="nav-link">Destinations</a></li>
+             <li class="nav-item"><a href="#stories" class="nav-link">Travel Stories</a></li>
+            </ul>
+        </nav>
+	<div class="menu">	
+	<div class="close">
+	<img src="./assets/SVG/close.svg" alt="close" width="30" height="30">
+	</div>
+	<nav>
+           <ul class="nav-list">
+             <li class="nav-item"><a href="#preview" class="nav-link">How It Works</a></li>
+             <li class="nav-item"><a href="#steps" class="nav-link">Plan Your Trip</a></li>
+             <li class="nav-item"><a href="#destinations" class="nav-link">Destinations</a></li>
+             <li class="nav-item"><a href="#stories" class="nav-link">Travel Stories</a></li>
+             <li class="nav-item"><a href="#" class="nav-link  account-show">Account</a></li>
+             <li class="nav-item"><a href="#social" class="nav-link">Sochial Media</a></li>
+            </ul>
+        </nav>
+	</div>
+
+<script>
+let menuBtn = document.querySelector('.menu-btn');
+let menu = document.querySelector('.menu');
+menuBtn.addEventListener('click', function(){ menu.classList.toggle('active'); });
+
+let menuClose = document.querySelector('.close');
+menuClose.addEventListener('click', function(){ menu.classList.remove('active'); });
+
+</script>
+	
+	<form>
+         <p><input class="loginbatton  button-show" type="button" value="Login"></p>
+     </form>
+		
+	
+		
+		
+		
+	 </div>
+	 
+	
+	 
+	 
+	 
+    </header>
+	
+	<main>
+		 <div class="container">
+	 
+	  	<div class="signuppopup_bg">
+<div class="signuppopup">
+
+	<div class="loginpopup_header">
+	<p class="textsignupcreate">Create account</p>
+	</div>
+
+	<div class="forms">
+		<form action=# method="POST">
+        	<label class="textlabel">E-mail</label>
+		<input class="inputform_" type="email" placeholder="Enter your email" />
+    		</form>
+	</div>
+
+	<div class="forms">
+		<form action=# method="POST">
+        	<label class="textlabel">Password</label>
+		<input class="inputform_" type="password" placeholder="Enter your password" />
+    		</form>
+
+	</div>
+
+	<div class="sign_In">
+	<form action=# method="POST">
+	<button class="form_Sign_In" type="submit" name="form_Sign_Up">Sign Up</button>
+	</form>
+	</div>
+
+
+	<div class="line">
+	</div>
+
+	<div class="undertext_">
+		<p class="text">Already have an account? <a class="text_fogot logshow" href=#>Log In<a></p>
+	</div>
+
+
+
+</div>
+</div>
+<div class="loginpopup_bg">
+<div class="loginpopup">
+	<div class="loginpopup_header">
+	<p class="textsignupcreate">Log in to your account</p>
+	</div>
+
+	<div class="sign_In_Facebook">
+	<form action=# method="POST">
+	<button class="form_Sign_In_Facebook" type="submit" name="form_Sign_In_Facebook"><img src="./assets/SVG/fb.svg" alt="fb" width="24" height="24"><p class="fb_text">Sign In with Facebook</p></button>
+	</form>
+	</div>
+
+	<div class="sign_In_Goggle">
+	<form action=# method="POST">
+	<button class="form_Sign_In_Google" type="submit" name="form_Sign_In_Google"><img src="./assets/SVG/gg.svg" alt="gg" width="24" height="24"><p class="gg_text">Sign In with Google</p></button>
+	</form>
+	</div>
+
+	<div class="or_line">
+	<div class="half_line">
+	</div>
+	<div>
+	<p class="or_line_text">or</p>
+	</div>
+	<div class="half_line">
+	</div>
+	</div>
+
+	
+	<div class="forms">
+		<form action=# method="POST">
+        	<label class="textlabel">E-mail</label>
+		<input class="inputform_ login" id="login" type="email" placeholder="Enter your email" />
+    		</form>
+	</div>
+
+	<div class="forms">
+		<form action=# method="POST">
+        	<label class="textlabel">Password</label>
+		<input class="inputform_ pass" id="pass" type="password" placeholder="Enter your password" />
+    		</form>
+
+	</div>
+
+
+
+	<div class="sign_In">
+	<form action=# method="POST">
+	<button class="form_Sign_In enterb" type="submit" name="form_Sign_In">Sign In</button>
+	</form>
+	</div>
+
+	<div class="fogot_your_password">
+	<p class="text_fogot">Fogot your password?</p>
+	</div>
+
+	<div class="line">
+	</div>
+
+	<div class="undertext_">
+	  <p class="text">Don't have an account? <a class="text regform-show" href=#>Register<a></p>
+
+
+
+	</div>
+
+
+</div>
+</div>
+</div>
+</div>
+<script>
+	let regformShow = document.querySelector('.regform-show');
+	
+	let signuppopup_bg = document.querySelector('.signuppopup_bg');
+
+	regformShow.addEventListener ('click', function(evt) {
+  	evt.preventDefault();
+  	signuppopup_bg.classList.add('signuppopup_bg--open');
+	loginpopup_bg.classList.remove('loginpopup_bg--open');
+  	})
+
+
+
+	document.addEventListener ('click', function(evt) {
+  	if(evt.target === signuppopup_bg) {
+    	signuppopup_bg.classList.remove('signuppopup_bg--open');
+    	}
+  	})
+
+	document.addEventListener ('keydown', function(evt) {
+  	if(evt.keyCode == 27) {
+  	signuppopup_bg.classList.remove('signuppopup_bg--open');
+   	}
+  	})
+
+
+
+
+
+</script>
+
+<script>
+	
+
+	let buttonShow = document.querySelector('.button-show');
+	
+	let accountShow = document.querySelector('.account-show');
+
+	let loginpopup_bg = document.querySelector('.loginpopup_bg');
+
+	
+
+
+        buttonShow.addEventListener ('click', function(evt) {
+  	evt.preventDefault();
+  	loginpopup_bg.classList.add('loginpopup_bg--open');
+  	})
+
+	accountShow.addEventListener ('click', function(evt) {
+  	evt.preventDefault();
+	menu.classList.remove('active');
+  	loginpopup_bg.classList.add('loginpopup_bg--open');
+  	
+	
+	})
+
+
+
+
+
+
+	document.addEventListener ('click', function(evt) {
+  	if(evt.target === loginpopup_bg) {
+    	loginpopup_bg.classList.remove('loginpopup_bg--open');
+    	}
+  	})
+
+
+	
+	
+
+
+
+
+        document.addEventListener ('keydown', function(evt) {
+        if(evt.keyCode == 27) {
+        loginpopup_bg.classList.remove('loginpopup_bg--open');
+        }
+        })
+
+
+
+</script>
+
+<script>
+	let logShow = document.querySelector('.logshow');
+	logShow.addEventListener ('click', function(evt) {
+  	evt.preventDefault();
+  	
+	signuppopup_bg.classList.remove('signuppopup_bg--open');
+	loginpopup_bg.classList.add('loginpopup_bg--open');
+  	})
+</script>
+
+
+<script>
+	const welcome = () => {
+    let login = document.querySelector('.login');
+    let pass = document.querySelector('.pass');
+ 
+    if (!login.value) alert('Заполните поле "E-mail"');
+    else if (!pass.value) alert('Заполните поле "Password"');
+    else alert(`E-mail: ${login.value}!, Password: ${login.value}!`) ;
+}
+ 
+document.querySelector('.enterb').addEventListener('click', welcome);
+
+
+ </script>
+		
+		
+		
+		
+		
+	 
+	 
+	 
+	 
+	 
+		  <section class="planyourtrip" id="preview">
+		  <div class="texth1">
+          <h1 class="h1">Explore the beauty of the World</h1> 
+		  </div>
+		  
+         <p class="text1">Recieve personalized recommendations for countries, hotels, activities and more</p>
+		 
+
+		<form>
+		<div class="form1">
+		  <input class="inputform" type="text" placeholder="What would you like to do?">
+		  
+		<div class="button1">
+		<button class="startplanning">
+                Start Planning
+                </button>		  
+		</div>	
+		 </div>	
+		 </form>
+
+		
+
+		 </section>
+	 
+	 
+	 
+		<section class="steps" id="steps">
+		   <h2 class="h2">3 STEPS TO THE PERFECT TRIP</h2>
+<div class="stepiconblock">
+
+   <div class="velo">
+      <div class="veloblock">
+	   <div class="veloicon">
+	   </div>
+	   <p class="steps-text">Tell us what you want to do</p>
+      </div>
+   </div>
+
+   <div class="calendar">
+      <div class="calendarblock">
+	   <div class="calendaricon">
+	   </div>	
+           <p class="steps-text">Share us preferable dates</p>
+     </div>
+   </div>
+
+   <div class="plane">
+      <div class="planeblock">
+	<div class="planeicon">
+	</div>		
+	<p class="steps-text">We will give you recommendation</p>
+      </div>
+   </div>
+
+</div>
+		   	  
+		</section> 
+		
+		<section class="destinations" id="destinations">
+		<div class="h_trvlstr">
+		<div class="hdestination">
+		
+		<h2 class="a">POPULAR DESTINATIONS</h2>
+		
+		 </div>
+		</div>
+		
+		<div class="destimg">
+		
+		
+  
+        <!-- Image slider start -->
+        <div class="slider">
+            <div class="imgs_slides">
+  
+                <!-- Radio buttons start -->
+                <input type="radio" name="radio-btn" id="radio1" />
+  
+                <input type="radio" name="radio-btn" id="radio2" />
+  
+                <input type="radio" name="radio-btn" id="radio3" />
+  
+
+  
+                <!-- Radio buttons end -->
+                <!-- Embedding  images start -->
+                <div class="first slide">
+                    <img class="full" src="assets/image/spain.jpg"/>
+					<img class="mob" src="assets/image/spain_m.jpg"/>
+					<p class="country">SPAIN</p>
+					
+                </div>
+                <div class="slide">
+                    <img src="assets/image/japan.jpg" />
+					<img class="mob" src="assets/image/japan_m.jpg"/>
+					<p class="country">JAPAN</p>
+                </div>
+                <div class="slide">
+                    <img src="assets/image/usa.jpg" />
+					<img class="mob" src="assets/image/usa_m.jpg"/>
+					<p class="country">USA</p>
+                </div>
+
+                <!-- Embedding images end -->
+            </div>
+  
+           
+        </div>
+		 <!-- Navigation start -->
+            <div class="navigation_sl">
+                <label for="radio1" class="navigation-btn">
+                </label>
+                <label for="radio2" class="navigation-btn">
+                </label>
+                <label for="radio3" class="navigation-btn">
+                </label>
+
+            </div>
+            <!-- Navigation end -->
+        <!-- Image slider end -->
+   
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		  <!-- 
+	    <div class="spnimage">
+		
+		<p class="country">SPAIN</p>
+		</div>
+	
+		
+		<div class="jpnimage">
+		
+		<p class="country">JAPAN</p>
+		</div>	
+		
+		<div class="usaimage">
+		
+		<p class="country">USA</p>
+		</div>		
+		-->
+		
+		<div class="arrowblock">
+		<div class="arrowback">
+		</div>
+		<div class="arrowgo">
+		</div>
+		
+		</div>
+		
+		
+		
+		</div>
+		<!-- 
+		<div class="radiobattons">
+		<form>
+       <input class="ellipse1" name="dest" type="radio" value="spain">
+       <input class="ellipse2" name="dest" type="radio" value="japan" checked>
+       <input class="ellipse3" name="dest" type="radio" value="usa">
+        </form> 
+		</div>
+		-->
+		
+		
+		<div class="button3">
+		<form>
+        		 
+		   <button class="findmorebutton">
+            <img class="arrowbutton" src="./assets/SVG/bi_arrow-right.svg" alt="arrow icon" width="40" height="40" style="vertical-align:middle">
+			<img class="arrowbutton_m" src="./assets/SVG/bi_arrow-right.svg" alt="arrow icon" width="10" height="10" style="vertical-align:middle">
+			Find More
+             </button>
+                  
+        </form>
+	</div>
+		
+		</section>
+	 
+	 	<section class="travelstories" id="stories">
+		 <div class="h_trvlstr">
+		 <h2 class="htravelstories">TRAVEL STORIES</h2>
+		 </div>
+		 
+		<div class="storyblock">
+   		  <div class="story1">
+		  <div class="imgstory1">
+		  
+		  </div>
+		  
+		  <div class="storytext txt">
+		  <h3 class="h3">10 Photos of Attractive Thailand</h3>
+		  <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span class="span">Read More</span></p>
+		  <p class="story-text_m">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... <span class="span">Read More</span></p>
+		  </div>
+		  
+		  </div>
+		
+		  <div class="story2">
+		 
+		  <div class="imgstory2">
+		  
+		  </div>
+
+		  <div class="storytext">
+		   <h3 class="h3">Canyonlands National Park, Utah</h3>
+		    <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span class="span">Read More</span></p>
+		  <p class="story-text_m">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a...<span class="span">Read More</span></p>
+		  </div>		  
+		
+		</div>
+		
+		
+		  <div class="story3">
+		  
+		 
+		  <div class="imgstory3">		   
+		  
+		  </div>
+		 <div class="storytext">
+		   <h3 class="h3">I left my heart in the Mountains!</h3>
+		    <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span class="span">Read More</span></p>
+		  <p class="story-text_m">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a...<span class="span">Read More</span></p>
+		  </div>		
+		</div>		
+		
+		  <div class="story4">
+		  <div class="imgstory4">		   
+		  
+		  </div>
+
+		 <div class="storytext">		 
+		   <h3 class="h3">The Longest journey in my life!</h3>
+		    <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... <span class="span">Read More</span></p>
+		  <p class="story-text_m">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a...<span class="span">Read More</span></p>
+		  </div>
+		  </div>		
+		
+		<div class="button4">
+		<form>
+         	<button class="seemorebutton">
+            <img class="arrowbutton" src="./assets/SVG/bi_arrow-right.svg" alt="arrow icon" width="40" height="40" style="vertical-align:middle">
+			<img class="arrowbutton_m" src="./assets/SVG/bi_arrow-right.svg" alt="arrow icon" width="10" height="10" style="vertical-align:middle">
+			
+			See More
+             </button>
+                  
+         	</form>
+		</div>
+		<div class="dop2">
+		</div>
+		</div>
+        <div class="dop">
+		</div>
+		</section>
+	  
+		   
+		   
+	 
+	 
+	 
+	 	 
+	 
+	 
+	 
+	 
+	 
+	 
+	</div>
+	</main>
+	
+	<footer>
+		 <div class="container footer">
+		 
+		 <div class="avtor">
+		 </div>
+		 
+		
+		 
+		 
+		 
+		 <div class="footer-text">
+		 <p class="text">All Rights Reserved © Travel Portal</p>
+		 </div>
+
+
+
+		 <div class="iconblock" id="social">
+			<ul class="footer-list">
+			 <li><a href="https://github.com/lkhgvjgfxdrdhxtfc"><img src="./assets/SVG/instagram.svg" alt="My Github" width="33.65" height="33.65"></a></li>
+             <li><a href ="https://rs.school/js-stage0/"><img src="./assets/SVG/youtube.svg" alt="RS School" width="33.65" height="33.65"></a></li>
+			 <li><a href ="https://twitter.com/"><img src="./assets/SVG/twitter.svg" alt="Twitter" width="33.65" height="33.65"></a></li>
+			
+			</ul>
+		  
+		  </div>
+	 
+	 </div>
+	</footer>
+   
+     
+   
+   
+   
+   </body>
+   
+  </html>
